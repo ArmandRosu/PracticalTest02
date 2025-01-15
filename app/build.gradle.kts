@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ro.pub.cs.systems.eim.practialtest02v2"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ro.pub.cs.systems.eim.practialtest02v2"
@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.okhttp)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
